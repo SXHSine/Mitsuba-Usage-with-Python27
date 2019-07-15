@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scene version="0.5.0">
+
+    <emitter type="point">
+        <spectrum name="intensity" value="3" />
+        <point name="position" x="0" y="3" z="3.0" />
+    </emitter>
+    
+    <shape type="obj">
+        <string name="filename" value="cubered.obj" />
+        <transform name="toWorld">
+    	    <scale x="0.04" y="0.04" z="0.04" />
+    	    <translate x="-2.0" y="-2.1" z="4.8" />
+    	</transform>
+        <bsdf type="diffuse">
+            <srgb name="diffuseReflectance" value="1.0, 0.0, 0.0" />
+        </bsdf>
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="cow.obj" />
+        <transform name="toWorld">
+    	    <scale x="0.15" y="0.15" z="0.15" />
+    	    <rotate angle="90" y="1" />
+    	    <translate x="1.5" y="-1.0" z="1.5" />
+    	</transform>
+        <bsdf type="diffuse">
+            <srgb name="diffuseReflectance" value="0.0, 1.0, 0.0" />
+        </bsdf>
+
+
+    </shape>
+    <shape type="obj">
+        <string name="filename" value="outwhitebox.obj" />
+        <transform name="toWorld">
+    	    <scale x="0.1" y="0.1" z="0.1" />
+    	    <translate x="0" y="-2" z="0" />
+    	</transform>
+    </shape>
+</scene>

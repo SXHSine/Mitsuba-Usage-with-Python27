@@ -1,0 +1,18 @@
+<integrator type="vpl"> 
+    <integer name="maxDepth" value="4" />
+    <integer name="shadowMap Resolution" value="128"/>
+    <float name="clamping" value="0.02"/>
+</integrator>
+<sampler type="halton">
+    <integer name="sampleCount" value="2000" />
+</sampler>
+
+
+
+<integrator type="path"> 
+    <integer name="maxDepth" value="4" />
+</integrator>
+<sampler type="halton">
+    <integer name="sampleCount" value="2000" />
+</sampler>
+
